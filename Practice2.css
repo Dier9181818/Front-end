@@ -1,0 +1,204 @@
+<style>
+
+/* ---------------------------- div ------------------------------- */
+
+div {
+    border: 0px solid lightgray;
+    padding: 8px;
+  }
+
+
+    div.one { /* 全部版面 */
+        padding: 100px;
+        margin: 40px;
+    }
+
+    div.two { /* 文字開始 */
+        background-color: white;
+        width: 720px;
+        padding: 20px 50px;
+    }
+
+
+/* ---------------------------- 一般文字 ------------------------------- */
+
+p {
+    margin: 1px;
+    font-size: 17px;
+    color: rgb(46, 40, 40);
+}
+
+/* ------------------ 第一個字變四倍大後，剩下一般大小的內容 --------------------- */
+
+p.two {
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+
+/* ---------------------------- 第一個字變四倍大 ------------------------------- */
+
+.content1 {}
+    #pTwo {
+        float: left;
+        margin: 0 10px 5px 0px ;
+        border-bottom: 5px solid red;
+        font-size: 40px;
+    }
+
+
+
+/* ------------------------ hyperlink / button --------------------------- */
+
+/* ------------------------ +追蹤 --------------------------- */
+
+a.one {
+    margin: 15px;
+    padding: 4px 17px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+    a.one:link, a.one:visited {
+        background-color:white;
+        color: black;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    } 
+  
+    a.one:hover, a.one:active {
+        background-color:rgba(180, 180, 180, 0.4);
+        color: white;
+        border: 1px solid rgba(180, 180, 180, 0.4);
+    } 
+
+    
+/* ------------------------ 贊助本文 --------------------------- */
+
+a.two {
+    margin: 10px 5px;
+    padding: 4px 18px;
+    border: 1px solid rgb(255, 115, 0);
+    border-radius: 5px;
+    background-color:rgb(255, 115, 0);
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+/* ------------------------ 簡 --------------------------- */
+
+a.three {
+    margin: 1px;
+    padding: 1px 4px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+    a.three:link, a.three:visited {
+        background-color:black;
+        color: rgba(255, 255, 255, 0.829);
+    } 
+  
+    a.three:hover, a.three:active {
+        background-color:rgba(255, 255, 255, 0.829);
+        color: black;
+    } 
+
+/* ------------------------ 啟動LINE推播 --------------------------- */
+
+a.four {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+    a.four:link, a.four:visited {
+        color: rgba(66, 58, 58, 0.438);
+    } 
+  
+    a.four:hover {
+        color: rgba(66, 58, 58, 0.438);
+    } 
+
+/* ------------------------ LINE --------------------------- */
+a.five {
+    margin: 0px 10px 0px 23px;
+    padding: 10px 3.5px;
+    width: 8px;
+    height: 8px; 
+    border-radius: 2em;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  
+    a.five:link, a.five:visited {
+        background-color: red;
+    } 
+  
+    a.five:hover {
+        background-color: rgba(24, 202, 24, 0.767);
+    } 
+
+/* ------------------------ FB --------------------------- */
+a.six {
+    margin: 0px 5px 0px 5px;
+    padding: 6px 2px 6px 10px;
+    width: 8px;
+    height: 8px; 
+    border-radius: 2em;
+    color: white;
+    font-family: "Lucida Console", monospace;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+    a.six:link, a.six:visited {
+        background-color: red;
+    } 
+  
+    a.six:hover {
+        background-color: rgba(33, 69, 233, 0.829);
+    } 
+
+/* ------------------------ ... --------------------------- */
+a.seven {
+    margin: 0px 7px;
+    padding: 7px 2px;
+    width: 8px;
+    height: 8px; 
+    border-radius: 2em;
+    color: white;
+    font-family: "Lucida Console", monospace;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+    a.seven:link, a.seven:visited {
+        background-color: red;
+    } 
+  
+    a.seven:hover {
+        background-color: gray;
+    } 
+    
+/* ------------------------------- 大廣告 ---------------------------------- */
+
+.content {
+    max-width: 350;
+  }
+  #ads {  
+    float: left;
+    margin: 20px 110px 0 25px ;
+    width: 230px; 
+}
+  
+
+</style>

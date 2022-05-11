@@ -1,0 +1,33 @@
+<style>
+
+.content {
+max-width: 350x;
+}
+#ads {
+float: left; 
+margin: 0 110px 0 25px ; 
+width: 230px; 
+clear: both;
+}
+
+.content1 {
+    max-width: 350x;
+    }
+    #ads1 {
+    float: left; 
+    margin: 0 110px 0 25px ; 
+    width: 230px; 
+    clear: both;
+    }
+
+.content2 {
+    max-width: 350x;
+    }
+    #ads2 {
+    float: left;
+    margin: 0 110px 0 25px ;
+    width: 230px; 
+    clear: both;
+    }
+
+</style>
